@@ -237,12 +237,11 @@ event RSDKDraw
 	temp0 = object.ypos
 	DrawSpriteXY(0, object.xpos, temp0)
 
-	temp0 += 8
+	temp0 += 0x8 0000
 	DrawSpriteXY(0, object.xpos, temp0)
 
-	temp1 = object.ypos
-	temp1 += 20
-	DrawSpriteXY(1, object.xpos, temp1)
+	temp0 += 0xA 0000
+	DrawSpriteXY(1, object.xpos, temp0)
 end event
 
 event RSDKLoad

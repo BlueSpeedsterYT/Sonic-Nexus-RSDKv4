@@ -131,6 +131,4 @@ end event
 event RSDKLoad
 	LoadSpriteSheet("Global/Display.gif")
 	SpriteFrame(-15, -15, 30, 30, 193, 378)
-
-	SetVariableAlias(ALIAS_VAR_PROPVAL, "unused")
 end event
